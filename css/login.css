@@ -1,0 +1,271 @@
+/*
+* @Author: Marte
+* @Date:   2018-07-16 13:54:44
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-07-17 16:00:06
+*/
+
+body,h1,h2,h3,h4,p,ul,ol,dl,dt,dd,p,br{
+    margin:0;
+    padding:0;
+    font:14px/28px "微软雅黑";
+}
+ul{
+    list-style:none;
+}
+img{
+    display: block;
+}
+.clearAfter:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.center{
+    width: 990px;
+    margin:0 auto;
+}
+.header{
+    width: 100%;
+    height:81px;
+}
+.header a img{
+    float:left;
+    margin-top:16px;
+}
+.header h1{
+    font-size:23px;
+    margin-left: 24px;
+    margin-top:36px;
+    color:#3a3a3a;
+}
+.header .welcome{
+    padding-top: 49px;
+    padding-left:23px;
+    background:url("../imgs/icon_login.png") no-repeat 0 59px;
+}
+.header .welcome a{
+    font-size:12px;
+    text-decoration: none;
+    color:#999;
+}
+.tips{
+    width: 100%;
+    height: 16px;
+    padding:11px 0;
+    background-color: #FFF8F0;
+}
+.tips .tipsCon{
+    width:100%;
+    height: 16px;
+
+}
+.tips .tipsCon p {
+    font-size:12px;
+    line-height:16px;
+    margin:0 auto;
+    padding-left:21px;
+    text-align:center;
+    color:#999;
+    background:url("../imgs/icon_tip.png") no-repeat 98px 0;
+}
+.con{
+    width: 100%;
+    height: 475px;
+    background:url("../imgs/bg.png") no-repeat center #E93854;
+}
+.con .bg{
+    float:left;
+}
+.con .box{
+    float: right;
+    width: 346px;
+    height: 400px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.con .box .loginTip{
+    width: 100%;
+    height: 16px;
+    padding:11px 0;
+    background-color: #FFF8F0;
+}
+.con .box .loginTip p{
+    height: 16px;
+    font-size:12px;
+    line-height:16px;
+    padding-left:21px;
+    color:#999;
+    text-align:center;
+    background:url("../imgs/icon_tip.png") no-repeat 30px 0 #FFF8F0;
+}
+.con .box .two{
+    width: 100%;
+    height: 53px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.con .box .saoma,.con .box .account{
+    width: 173px;
+    height: 53px;
+}
+.con .box .saoma a,.con .box .account a{
+    display: inline-block;
+    width: 173px;
+    height: 37px;
+    padding-top: 16px;
+    font-size:17px;
+    color:#666;
+    text-align:center;
+    text-decoration:none;
+}
+.con .box .saoma a span{
+    font-size:17px;
+    color:#f4f4f4;
+}
+.con .box .saoma:hover a,.con .box .account:hover a{
+    font-weight: bold;
+    color:#E4393C;
+}
+.con .box .login{
+    width: 306px;
+    height: 192px;
+    margin-top:33px;
+    padding:0 20px;
+}
+.login .username{
+    width: 304px;
+    height: 38px;
+    border:1px solid #ccc;
+    margin-bottom:20px;
+    background: url("../imgs/user.png") no-repeat;
+}
+.login .password{
+    width: 304px;
+    height: 38px;
+    border:1px solid #ccc;
+    margin-bottom:20px;
+    background: url("../imgs/password.png") no-repeat;
+ }
+.login .username input, .login .password input{
+    float:right;
+    width: 245px;
+    height:38px;
+    line-height:40px;
+    padding:0 10px;
+    border:none;
+    margin-bottom:20px;
+    border-left:1px solid #ccc;
+}
+.con .box .forget{
+    width: 100%;
+    height: 14px;
+    margin-top:2px;
+}
+.con .box .forget a{
+    float: right;
+    line-height:14px;
+    text-decoration: none;
+    color:#666;
+}
+.login  input[type="submit"]{
+    width: 306px;
+    height: 34px;
+    line-height:30px;
+    margin-top:22px;
+    font-size:18px;
+    letter-spacing:1em;
+    text-align:center;
+    color:#fff;
+    background-color: #E4393C;
+    border:none;
+}
+.con .box .loginBottom{
+    width: 100%;
+    height: 50px;
+    margin-top:31px;
+    border-top:1px solid #f4f4f4;
+}
+.con .box .loginBottom ul{
+    margin-top:16px;
+    margin-left:20px;
+}
+.con .box .loginBottom .qq a{
+    display: block;
+    width: 18px;
+    height: 18px;
+    line-height:18px;
+    padding-left:23px;
+    font-size:12px;
+    text-decoration:none;
+    color:#666;
+    background:url("../imgs/qq.png") no-repeat ;
+}
+.con .box .loginBottom .split{
+    height: 18px;
+    line-height:18px;
+    padding:0 10px 0 14px;
+    font-size:12px;
+    color:#DBCCDB;
+}
+.con .box .loginBottom .wechat a{
+    display: block;
+    width: 24px;
+    height: 18px;
+    line-height:18px;
+    padding-left:23px;
+    font-size:12px;
+    text-decoration:none;
+    color:#666;
+    background:url("../imgs/wechat.png") no-repeat ;
+}
+.con .box .loginBottom .register a{
+    display: block;
+    width: 58px;
+    height: 16px;
+    padding-left:20px;
+    margin-right:20px;
+    line-height:16px;
+    font-size:14px;
+    text-decoration:none;
+    color:#B61D1D;
+    background:url("../imgs/icon_register.png") no-repeat ;
+}
+.footer{
+    width: 100%;
+    height: 86px;
+}
+.footer ul{
+    width: 847px;
+    margin: 23px auto 16px auto;
+    font-size:12px;
+    color:#666;
+}
+.footer ul li{
+    float: left;
+}
+.footer ul li a{
+    font-size:12px;
+    line-height:12px;
+    text-align:center;
+    text-decoration:none;
+    color:#666;
+}
+.footer ul li:nth-child(2n){
+    margin:0 14px 0 13px;
+}
+.footer ul li:hover a{
+    text-decoration:underline;
+    color:#E4393C;
+}
+.footer .footerInfo{
+    font-size:12px;
+    line-height:12px;
+    color:#666;
+    text-align:center;
+}

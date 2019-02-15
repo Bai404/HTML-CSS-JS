@@ -1,0 +1,521 @@
+/*
+* @Author: Marte
+* @Date:   2018-08-13 18:00:58
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-11-17 08:54:30
+*/
+body{
+    color:#666;
+}
+a{
+    text-decoration:none;
+    color:#333;
+}
+.center{
+    width: 990px;
+}
+.locate{
+    width: 152px;
+    margin-left: 0;
+    font-size:0px;
+}
+.locate a{
+    float: left;
+    display:inline-block;
+    width: 69px;
+    padding:0 2px;
+    line-height:26px;
+    font-size: 12px;
+    color:#999;
+    text-decoration: none;
+    background: url();
+}
+.locate span{
+    float: left;
+    display: block;
+    width: 42px;
+    padding-left: 23px;
+    line-height:26px;
+    font-size: 12px;
+    color:#999;
+    background:url("../imgs/pic/icon_local.png") no-repeat 7px 7px;
+}
+.locate .bj{
+    left: 76px;
+}
+.locate a{
+    width:52px;
+    padding-left:22px;
+    background:url(../imgs/pic/icon_house.png) no-repeat 0 5px;
+}
+.del{
+    cursor: pointer;
+}
+.center{
+    width: 990px;
+}
+.header{
+    position: relative;
+    height: 98px;
+    padding-top: 10px;
+}
+.header .car_logo{
+    float: left;
+    position: relative;
+    width: 277px;
+    padding: 0;
+    height: 50px;
+     margin: 15px 0 22px;
+}
+.header .car_logo a.logo{
+    display: block;
+    margin-top: 2px;
+    width: 134px;
+    height: 42px;
+    background: url(../imgs/pic/cart-logo.png) no-repeat 0 0;
+    background-size: 134px 42px;
+}
+.header .car_logo a.link{
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    line-height: 99em;
+    top: 14px;
+    right: 38px;
+    background: #fff;
+    color:#666;
+}
+.header .car_logo a.link b{
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    line-height: 99em;
+    top: 0;
+    right: 0;
+    background: url(../imgs/pic/cart-title.png) #fff no-repeat;
+}
+.header .search{
+    float: right;
+    border: 2px solid #c91623;
+    background: #c91623;
+    height: 24px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.header .search input[type="text"]{
+    border: 0;
+    height: 18px;
+    line-height: 18px;
+    width: 260px;
+    padding: 3px 5px;
+    outline: 0;
+}
+.header .search input[type="button"]{
+    display:inline-block;
+    vertical-align: top;
+    width: 48px;
+    height: 24px;
+    background: #c91623;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    border:none;
+}
+.container .fliter{
+    height: 37px;
+    margin-top: 10px;
+    position: relative;
+
+}
+.container .filter .cart-store{
+    float: right;
+}
+.container .filter .cart-store .label{
+    float: left;
+    line-height: 26px;
+}
+.container .filter .cart-store .jdArea{
+    float: left;
+    position: relative;
+    top: 0;
+    height: 23px;
+    background: #fff;
+    border: 1px solid #CECBCE;
+    padding: 0 24px 0 4px;
+    line-height: 23px;
+    overflow: hidden;
+}
+.container .cart-thead{
+    height: 32px;
+    line-height: 32px;
+    margin: 0 0 10px;
+    padding: 5px 0;
+    background: #f3f3f3;
+    border: 1px solid #e9e9e9;
+    position: relative;
+}
+.container .cart-thead input{
+    margin-left: 15px;
+}
+.container .cart-thead .column{
+    float: left;
+}
+.container .cart-thead .t-checkbox{
+    width: 122px;
+}
+.container .cart-thead .t-goods{
+    width: 208px;
+}
+.container .cart-thead .t-props{
+    width: 150px;
+    height: 32px;
+    padding: 0 10px 0 20px;
+}
+.container .cart-thead .t-price{
+    width: 120px;
+    padding-right: 40px;
+    text-align: right;
+}
+.container .cart-thead .t-sum{
+    width: 100px;
+    padding-right: 40px;
+    text-align: right;
+}
+.container .cart-thead .t-quantity{
+    width: 50px;
+    padding-right: 40px;
+    text-align: right;
+}
+.container .cart-thead .t-action{
+    width: 75px;
+}
+.container .cart-main .cart-list{
+    margin-bottom: 20px;
+}
+.container .cart-main .cart-list .cart-shop{
+    height: 30px;
+    padding-left: 11px;
+    font-weight: 700;
+    border-bottom:2px solid #ccc;
+}.container .cart-main .cart-list .cart-shop span{
+    line-height: 32px;
+}
+.cart-main .cart-list .item-list{
+    border-style: solid;
+    border-width: 1px 1px 1px;
+    border-width: 1px;
+    border-color: #fff #f1f1f1 #f1f1f1;
+    background: #fff;
+}
+.cart-main .cart-list .item-list .product{
+    position: relative;
+    padding: 0 0 1px 40px;
+    border-top:1px solid #ccc;
+}
+.cart-main .cart-list .item-list .product .p-goods{
+    float: left;
+    width: 300px;
+    padding: 15px 0 10px;
+}
+.cart-main .cart-list .item-list .product .p-goods a{
+    text-decoration: none;
+    color:#333;
+}
+.cart-main .cart-list .item-list .p-checkbox{
+    position: absolute;
+    z-index: 3;
+    left: 10px;
+    top: 0;
+    width: 30px;
+    min-height: 10px;
+    padding: 15px 0 10px;
+}
+.cart-main .cart-list .item-list .p-goods .p-img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #eee;
+    margin-right: 10px;
+    background: #fff;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+.cart-main .cart-list .item-list .p-goods .p-text{
+}
+.cart-main .cart-list .item-list .p-props{
+    float: left;
+    width: 130px;
+    padding: 15px 0 0 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: default;
+    color:#666;
+}
+.cart-main .cart-list .item-list .p-price{
+    float: left;
+    width: 150px;
+    text-align: right;
+    padding: 15px 40px  10px 0;
+}
+.cart-main .cart-list .item-list .p-price strong{
+    display: block;
+    color: #333;
+    font-weight: 400;
+}
+.cart-main .cart-list .item-list .quantity{
+    float: left;
+    position: relative;
+    padding: 15px 0 10px;
+    overflow: hidden;
+    height: 22px;
+    width: 80px;
+}
+.cart-main .cart-list .item-list  .quantity .decrement{
+    float: left;
+    border: 1px solid #cacbcb;
+    height: 22px;
+    line-height: 18px;
+    padding: 1px 0;
+    width: 18px;
+    text-align: center;
+    margin: 0;
+    background: #fff;
+}
+.cart-list .item-list  .quantity .increment{
+        float: right;
+        border: 1px solid #cacbcb;
+        height: 22px;
+        line-height: 18px;
+        padding: 1px 0;
+        width: 18px;
+        text-align: center;
+        margin: 0;
+        background: #fff;
+}
+.cart-main .cart-list .item-list .quantity .itxt{
+        float: left;
+        position: absolute;
+        left: 17px;
+        top: 15px;
+        border: 1px solid #cacbcb;
+        width: 42px;
+        height: 18px;
+        line-height: 18px;
+        text-align: center;
+        padding: 1px;
+        margin: 0;
+        font-size: 12px;
+        font-family: verdana;
+        color: #333;
+}
+.cart-main .cart-list .item-list .p-sum{
+    float: left;
+    width: 100px;
+    padding: 15px 40px 10px 0;
+    text-align: right;
+    font-family: verdana;
+}
+.cart-main .cart-list .item-list .p-ops{
+    width: 75px;
+    float: left;
+    padding: 15px 0 10px;
+}
+.container .filter{
+    position: relative;
+}
+.container .filter ul {
+    float: left;
+    position: relative;
+    height: 26px;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+.container .filter ul li{
+    float: left;
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 0 10px;
+    cursor: pointer;
+    margin: 5px 30px 0 0;
+}
+.container .filter ul li:first-child a{
+    color: #e4393c;
+}
+.container .filter ul li #allproduct{
+    font-family: verdana;
+    font-size: 14px;
+}
+.container .filter .filter-bar{
+    position:absolute;
+    left:0;
+    bottom:-1px;
+    z-index: 3;
+    width: 79px;
+    height: 1px;
+    background-color:#e4393c;
+    transition:1s;
+}
+.container .float-bar{
+    position: relative;
+    width: 990px;
+    margin:0 auto;
+    height: 50px;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+}
+.container  .fixed-bottom{
+    width: 1349px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 999;
+}
+.container .float-bar .selectAll{
+    float: left;
+    height: 18px;
+    line-height: 3px;
+    padding: 16px 0 16px 9px;
+    white-space: nowrap;
+}
+.container .float-bar .operation{
+    float: left;
+    height: 50px;
+    width: 310px;
+    line-height: 50px;
+}
+.container .float-bar .operation a{
+    float: left;
+    margin-left: 10px;
+    line-height:50px;
+    color: #666;
+}
+.container .float-bar .sum-btn{
+    float: right;
+
+}
+.container .float-bar .sum-btn a{
+    display: block;
+    position: relative;
+    width: 96px;
+    height: 52px;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    background: #e54346;
+    overflow: hidden;
+}
+.container .float-bar .amout-sum{
+    float: right;
+    color: #999;
+    height: 44px;
+    line-height: 20px;
+    margin: 7px 0 0;
+    cursor: pointer;
+}
+.container .float-bar .sum-price{
+    float: right;
+    height: 43px;
+    line-height: 20px;
+    margin: 7px 20px 0 10px;
+    color: #666;
+    width: auto;
+    position: relative;
+}
+.container .float-bar .sum-price #sum{
+    font-size: 16px;
+    color: #e4393c;
+    font-weight: 700;
+}
+
+// 尾部
+.footer{
+    width: 100%;
+    height: 514px;
+     background-color: #eaeaea;
+}
+.footer ul{
+    width: 100%;
+    padding:30px 0 30px 65px;
+}
+.footer ul li{
+    float: left;
+}
+.footer ul li img{
+    margin-right:11px;
+}
+.footer ul li h3{
+    margin-right:20px;
+    font-size:18px;
+    font-weight:600;
+    color:#444;
+    line-height:42px;
+}
+.footer .service{
+    height: 202px;
+    padding-left:130px;
+    padding-top:25px;
+    background-color: #eaeaea;
+}
+.footer .service dl{
+    float: left;
+    margin-right:129px;
+}
+.footer .service dl dd a{
+    font-size:12px;
+    color:#666;
+    line-height:22px;
+}
+.footer .service {
+    border-top: 1px solid #DEDEDE;
+    border-bottom: 1px solid #DEDEDE;
+}
+.footer .service dl dt a{
+    color:#666;
+    font-weight:600;
+    font-size:14px;
+}
+.footer .service .sp{
+    margin-right:0;
+}
+.footer .help{
+    background-color: #eaeaea;
+}
+.footer .help ul{
+    color:#666;
+    padding:22px 0 18px 57px;
+}
+.footer .help ul li {
+    float: left;
+    line-height:12px;
+    margin-right:3px;
+    color:#666;
+}
+.footer .help ul li a{
+    line-height:12px;
+    font-size:12px;
+    text-decoration: none;
+    color:#666;
+}
+.footer .help ul li span{
+    color:#D1CCD1;
+}
+.footer .help .info {
+        text-align:center;
+}
+.footer .help .info p{
+    line-height:22px;
+        font-size:12px;
+    color:#666;
+}
+.split{
+    margin:0 10px;
+}

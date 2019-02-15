@@ -1,0 +1,290 @@
+/*
+* @Author: Marte
+* @Date:   2018-08-06 08:36:05
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-10-28 23:03:57
+*/
+body,h1,h2,h3,h4,p,ul,ol,dl,dt,dd,p,br{
+    margin:0;
+    padding:0;
+    font:12px/28px "微软雅黑";
+}
+ul{
+    list-style:none;
+}
+img{
+    display: block;
+}
+
+.clearAfter:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.center{
+    width: 1190px;
+    margin:0 auto;
+}
+.shortCut{
+    width: 100%;
+    height: 30px;
+    background-color: #E1E2E3;
+    border-bottom: 1px solid #ddd;
+}
+.locate{
+    position:relative;
+    height: 28px;
+    font-size:0px;
+    margin-top: 1px;
+    margin-left: 202px;
+}
+.locate span{
+    display: block;
+    width: 42px;
+    padding-left: 23px;
+    line-height:26px;
+    font-size: 12px;
+    color:#999;
+    background:url("../imgs/icon_locate.png") no-repeat 7px 7px;
+}
+.locate .bj{
+    position: absolute;
+    z-index:2;
+    left:0;
+    top:29px;
+    width: 320px;
+    height: 330px;
+    display: none;
+    background-color:#fff;
+    border:1px solid #ccc;
+}
+.shortCut .locate:hover .bj{
+    display: block;
+}
+.spacer{
+    width: 1px;
+    height: 10px;
+    margin:11px 5px 0;
+    background-color:#ccc;
+}
+.w1{
+    width: 280px;
+}
+.w2{
+    width: 155px;
+}
+.w3{
+    width: 170px;
+}
+.w3 dl dd{
+    float: left;
+}
+.w3 dl dt,.w4 dl dt{
+    height: 12px;
+    line-height: 12px;
+    margin-bottom: 13px;
+    color:#666;
+    font-weight: 600;
+    text-align: left;
+
+}
+.w3 dl dd:nth-child(2n){
+    margin-right: 36px;
+}
+.w3 .my1{
+    border-bottom:1px dashed #f1f1f1;
+}
+.w4{
+    width: 1188px;
+}
+.dt{
+    padding:0 7px;
+}
+.shortCut{
+    width: 100%;
+    min-width: 1190px;
+}
+.shortCut ul li{
+    float:left;
+}
+.shortCut ul li.nomal{
+    position: relative;
+    top:1px;
+    height: 30px;
+    line-height:30px;
+    font-size:12px;
+    color:#999;
+    text-align: center;
+}
+.shortCut ul li a{
+    font-size:12px;
+    line-height:29px;
+    color:#999;
+    text-decoration: none;
+}
+.special_box {
+    position: relative;
+    height: 28px;
+    line-height:28px;
+    font-size:12px;
+    color:#999;
+    border:1px solid #E1E2E3 ;
+}
+.shortCut .locate:hover .special_box{
+    display: block;
+    z-index:4;
+    color:#F10215;
+    background-color:#fff;
+    border:1px solid #ccc;
+    border-bottom-color:#fff;
+}
+.shortCut ul li .special_box:after{
+    content:"";
+    display:block;
+    float: right;
+    width: 13px;
+    height: 30px;
+    background: url(../imgs/index/icon.png) no-repeat center;
+    vertical-align: top;
+}
+.shortCut ul li.nihao a{
+    font-size:12px;
+    line-height:30px;
+    color:#999;
+    text-decoration: none;
+}
+.shortCut ul li.nihao a:nth-child(2){
+    padding-left:7px;
+    margin-right: 8px;
+    color:#F10215;
+}
+.shortCut ul li:last-child{
+    width: 74px;
+}
+.shortCut ul li:hover .special_box{
+    z-index:3;
+    color:#F10215;
+    background-color:#fff;
+    border:1px solid #ccc;
+    border-bottom-color:#fff;
+}
+.shortCut ul li:hover .special_box:after{
+    background: url(../imgs/index/white_arrow.png) no-repeat center;
+}
+.sub{
+    position: absolute;
+    z-index:2;
+    left:0;
+    top:29px;
+    display: none;
+    background-color:#fff;
+    border:1px solid #ccc;
+}
+.shortCut ul li.nomal dl{
+    margin:17px 0 3px 16px;
+}
+
+ .shortCut ul li.nomal dl dd{
+    margin-bottom: 13px;
+    height: 12px;
+    line-height: 12px;
+    text-align: left;
+}
+.shortCut ul li.nomal dl dd a{
+    line-height: 12px;
+}
+.shortCut ul li .w1 dl{
+    margin-right: 65px;
+}
+.shortCut ul li .w1 .my1{
+    float:left;
+    width: 280px;
+    border-bottom:1px solid #f1f1f1;
+}
+.shortCut ul li .w2 dl dd{
+    float: left;
+    margin-right:19px;
+}
+
+.shortCut ul li:hover .sub{
+    display: block;
+}
+.shortCut ul li a:hover{
+    color:#F10215;
+}
+ .shortCut ul li.nomal .w3{
+    left:-95px;
+}
+ .shortCut ul li.nomal .w4{
+    left:-1029px;
+ }
+.shortCut ul li.nomal .w4 dl{
+    float: left;
+    margin:15px 0 20px 15px;
+    border-right: 1px solid #eee;
+}
+.shortCut ul li.nomal .w4 dl:first-child{
+    width: 340px;
+}
+.shortCut ul li.nomal .w4 dl dt{
+    margin:7px 0 18px 0;
+}
+.shortCut ul li.nomal .w4 dl dd{
+    float: left;
+    width: 85px;
+}
+.shortCut ul li.nomal .w4 dl:nth-child(2),.shortCut ul li.nomal .w4 dl:nth-child(3),.shortCut ul li.nomal .w4 dl:nth-child(4){
+    width: 255px;
+}
+.shortCut ul li.nomal .w4 dl:nth-child(4){
+    border: none;
+}
+ .two{
+    position: absolute;
+    right: 0;
+    width: 66px;
+    height: 66px;
+    border: 1px solid #cfcfcf;
+}
+ .two:before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: -9px;
+    left: 50%;
+    z-index:99;
+    margin-left: -5px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e4e4e4 #e4e4e4 #f6f6f6;
+}
+ .two .twopic{
+    margin: 4px auto;
+    width: 60px;
+    height: 60px;
+    background: #f6f6f6 url(../imgs/index/two.png) no-repeat;
+}
+.shortCut ul li.mobile .list_code{
+    position: absolute;
+    right:0;
+    z-index:4;
+    display:none;
+    width: 190px;
+    height: 303px;
+    background-color:#fff;
+    border:1px solid #ccc;
+}
+.shortCut ul li:hover .list_code{
+    display: block;
+}
+
